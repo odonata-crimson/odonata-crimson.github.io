@@ -38,7 +38,9 @@ body{
 ::selection{background:rgba(76,243,255,0.3);color:#fff;}
 h1,h2,h3,h4,.display{font-family:'Space Grotesk',sans-serif;}
 .mono{font-family:'JetBrains Mono',monospace;}
-
+::-webkit-scrollbar{
+  display:none;
+  
 /* respect reduced motion */
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
